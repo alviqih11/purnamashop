@@ -25,7 +25,7 @@ nav {
     z-index: 22;
     width: 100%;
     /* background-color: #eee; */
-    background-color: black;
+    background-color: black; 
        
     
 }
@@ -485,9 +485,9 @@ nav ul li a:hover{
     }
 
     .content {
-        width: 150px; 
+        width: 120px; 
         margin-top: 60px;
-        margin-right: 40px;
+        margin-right: 60px;
         float: right;
        
        
@@ -509,12 +509,14 @@ nav ul li a:hover{
         font-size: 10px;
     }
     .content a {
-        font-size: 10px;
+        font-size: 5px;
+        margin-right: 2px;
+        text-align: center;
+        
     }
+
+  
     
-    .content a {
-        margin-right: 10px;
-    }
 
     /* etalase belanja */
 
@@ -525,6 +527,21 @@ nav ul li a:hover{
     .containerKategori {
        margin-left: -17px;
         
+    }
+
+    .kategori {
+       
+        
+        height: 30px;
+        width: 90px;
+       
+    
+        
+    }
+
+    .kategori a {
+        font-size: 10px;
+        line-height: 30px;
     }
     
 
@@ -562,7 +579,7 @@ nav ul li a:hover{
 
     .price {
         font-size: 8px;
-        margin-top: -20px;
+        margin-top: -17px;
     }
 
     .eye {
