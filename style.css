@@ -26,8 +26,6 @@ nav {
     z-index: 22;
     width: 100%;
     /* background-color: #eee; */
-    background-color: black; 
-       
     
 }
 
@@ -471,19 +469,20 @@ nav ul li a:hover{
 
    
     .carousel-item {
-        margin-top: -50px;
+        margin-top: 0;
         height:400px;
         margin-right: 300px;
     }
 
     /* jumbotron */
+
     
     .image {
       
         width: 65px; 
         height: 65px;
         float: left;
-        margin-top: 140px;
+        margin-top: 120px;
         margin-left: 100px;
 
         
@@ -517,7 +516,9 @@ nav ul li a:hover{
     .content a {
         font-size: 5px;
         margin-right: 2px;
+        margin-top: 5px;
         text-align: center;
+
         
     }
 
@@ -527,7 +528,7 @@ nav ul li a:hover{
     /* etalase belanja */
 
     .sectionHeadCategoris {
-        margin-top: -50px;
+        margin-top: -100px;
     }
 
     .containerKategori {
